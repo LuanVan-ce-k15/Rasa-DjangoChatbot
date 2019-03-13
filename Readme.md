@@ -31,9 +31,9 @@ pip3 install rasa_core
 **Train NLU first, in rasa-bot open terminal**
 
 ```
-python3 -m rasa_nlu.train --config config.yml --data nlu.md
+python3 -m rasa_nlu.train --config nlu_config.yml --data nlu.md
 // if you replace with json file
-python3 -m rasa_nlu.train --config config.yml --data yourData.json
+python3 -m rasa_nlu.train --config nlu_config.yml --data yourData.json
 ```
 
 **In rasa-bot/bot.py**
